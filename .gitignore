@@ -1,0 +1,12 @@
+# Genereras lokalt på varje maskin
+hosts/utm-vm/hardware-configuration.nix
+
+# Nix build-resultat
+result
+result-*
+
+# Hemliga filer (lägg aldrig in lösenord/nycklar i git)
+secrets.nix
+*.age
+*.pem
+*.key
